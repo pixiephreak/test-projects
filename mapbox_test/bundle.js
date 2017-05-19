@@ -83,6 +83,9 @@ zoom: 9 // starting zoom
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
+// Add geolocate control to the map.
+map.addControl(new mapboxgl.GeolocateControl());
+
 
 /***/ }),
 /* 1 */
